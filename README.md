@@ -2,10 +2,12 @@
 
    This project is based off of Joshua Harrison and Partner’s Paper Acoustic Side Channel Attack on Keyboards. The attack involved in collecting a phone and zoom recording raw .wav audio of a person typing on a 2021 MacBook Pro and extracting the keysroke audio using FFT and transform to spectrograms to utilize a pre-trained CoAtNet model to predict laptop keystrokes (36 possibilities which are [a-z0-9]).
 
-   There are 2 version of 2 models being trained and evaluated:
+   There are 3 version of 2 models being trained and evaluated:
 
    1. Zoom Audio Model  (V1 and V2) for zoom recording audio
    2. Phone Audio Model (V1 and V2) for phone recording audio
+   3. Zoom Audio Model (V3) for zoom recording audio
+   4. Phone Audio Model (V3) for phone recodrding audio
 
 
 ## Repo Structure:
@@ -17,12 +19,8 @@
 │   ├── 0-9.wav                                            # Original audio before extraction
 │   ├── RecordingKeystrokeIsolator.ipynb                   # Keystroke isolator code
 │   └── keystrokeExtractionLogic                           # Data flow of how the keystroke isolator works
-├── CoATNet                                                # Four Pre-Trained CoATNet models                  
-├── InferencePhrase                                        # Inference Stage of the models
-│   ├── 0-9                                                # Isolated keystrokes from a sample attack recording
-│   ├── Models                                             # Contains 4 Pre-Trained CoATNet models and their training + eval result
-│   ├── 0-9.wav                                            # Original of the attack recording
-│   └── InferencePhrase.ipynb                              # Jupyter Notebook of the python code to run the models in infernece phrase to predict attacker recordings
+├── CoATNet                                                # The source code of the Pre-Trained CoATNet models and the author original source code                 
+├── InferencePhrase                                        # Inference Stage of the models, contains all the Pre-Trained CoATNet models and their training + eval result, all the pre-recorded audios, and the source code for running the model in 
 ├── Keystroke-Datasets                                     # Clean Keystoke dataset obtain from /Botacin-s-Lab/EchoCrypt/
 ├── Reading                                                # The original Harrison et Al paper that lay the foundation of this project 
 └── README.md                                              # This file
