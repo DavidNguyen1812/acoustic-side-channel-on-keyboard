@@ -106,15 +106,6 @@ Original dataset can be found through this [link](https://github.com/Botacin-s-L
       Model Parameters: 276,580\
       Total Epochs: 1100
 
-       **Phone Model V1**\
-      Training Accuracy: 1.0000\
-      Validation Accuracy: 0.4500\
-      Precision: 0.4965\
-      Recall: 0.4500\
-      F1: 0.5278\
-      Model Parameters: 276,580\
-      Total Epochs: 1100
-
 ## Requirements:
    $ Need Jupyter Notebook installed\
    $ Python version 3.11+\
