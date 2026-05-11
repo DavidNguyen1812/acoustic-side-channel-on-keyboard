@@ -70,20 +70,50 @@ Original dataset can be found through this [link](https://github.com/Botacin-s-L
 
 ## Model Training and Evaluation Results:
 
-   **Phone Model**\
+   **Phone Model V1**\
+      Training Accuracy: 1.0000\
+      Validation Accuracy: 0.4500\
+      Precision: 0.4965\
+      Recall: 0.4500\
+      F1: 0.5278\
+      Model Parameters: 276,580\
+      Total Epochs: 1100
+
+   **Zoom Model V1**\
+      Training Accuracy: 1.0000\
+      Validation Accuracy: 0.3167\
+      Precision: 0.3573\
+      Recall: 0.3167\
+      F1: 0.3749\
+      Model Parameters: 276,580\
+      Total Epochs: 1100
+
+ **Phone Model V2**\
       Training Accuracy: 0.5486\
       Validation Accuracy: 0.5333\
       Precision: 0.5539\
       Recall: 0.5333\
-      F1: 0.5360
-
-   **Zoom Model**\
+      F1: 0.5360\
+      Model Parameters: 276,580\
+      Total Epochs: 1100
+      
+**Zoom Model V2**\
       Training Accuracy: 0.6153\
       Validation Accuracy: 0.3667\
       Precision: 0.3579\
       Recall: 0.3667\
-      F1: 0.3532
+      F1: 0.3532\
+      Model Parameters: 276,580\
+      Total Epochs: 1100
 
+       **Phone Model V1**\
+      Training Accuracy: 1.0000\
+      Validation Accuracy: 0.4500\
+      Precision: 0.4965\
+      Recall: 0.4500\
+      F1: 0.5278\
+      Model Parameters: 276,580\
+      Total Epochs: 1100
 
 ## Requirements:
    $ Need Jupyter Notebook installed\
@@ -104,6 +134,7 @@ Original dataset can be found through this [link](https://github.com/Botacin-s-L
    2. We didn’t use the same setup as the original Author (with a microfiber cloth under the phone)
    3. The isolator script sometimes wouldn’t actually extract all possible key strokes (for example if our sentence  has 35 valid characters, it would capture only 32).
    4. Not enough computation power to enhance the model complexity for better accuracy
+   5. The Fast-Fourier Extraction script still premature and can not cleanly extracting the exact keystroke noise
 
 ## Contributors:
    1. David Nguyen - DavidNguyen1812
