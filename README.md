@@ -88,7 +88,7 @@ Original dataset can be found through this [link](https://github.com/Botacin-s-L
       Model Parameters: 276,580\
       Total Epochs: 1100
 
- **Phone Model V2**\
+   **Phone Model V2**\
       Training Accuracy: 0.5486\
       Validation Accuracy: 0.5333\
       Precision: 0.5539\
@@ -97,7 +97,7 @@ Original dataset can be found through this [link](https://github.com/Botacin-s-L
       Model Parameters: 276,580\
       Total Epochs: 1100
       
-**Zoom Model V2**\
+   **Zoom Model V2**\
       Training Accuracy: 0.6153\
       Validation Accuracy: 0.3667\
       Precision: 0.3579\
