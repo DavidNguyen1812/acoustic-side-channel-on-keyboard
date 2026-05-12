@@ -70,41 +70,18 @@ Original dataset can be found through this [link](https://github.com/Botacin-s-L
 
 ## Model Training and Evaluation Results:
 
-   **Phone Model V1**\
-         Training Accuracy: 1.0000\
-         Validation Accuracy: 0.4500\
-         Precision: 0.4965\
-         Recall: 0.4500\
-         F1: 0.5278\
-         Model Parameters: 276,580\
-         Total Epochs: 1100
-
-   **Zoom Model V1**\
-         Training Accuracy: 1.0000\
-         Validation Accuracy: 0.3167\
-         Precision: 0.3573\
-         Recall: 0.3167\
-         F1: 0.3749\
-         Model Parameters: 276,580\
-         Total Epochs: 1100
-
-   **Phone Model V2**\
-         Training Accuracy: 0.5486\
-         Validation Accuracy: 0.5333\
-         Precision: 0.5539\
-         Recall: 0.5333\
-         F1: 0.5360\
-         Model Parameters: 276,580\
-         Total Epochs: 1100
-      
-   **Zoom Model V2**\
-         Training Accuracy: 0.6153\
-         Validation Accuracy: 0.3667\
-         Precision: 0.3579\
-         Recall: 0.3667\
-         F1: 0.3532\
-         Model Parameters: 276,580\
-         Total Epochs: 1100
+Model | Training Accuracy | Validation Accuracy | Validation Precision | Validation Recall | Validation F1 | Model Parameters | Total Epochs
+|---|---|---|---|---|---|---|---|
+|Phone Audio V1|1.0000|0.4500|0.4965|0.4500|0.5278|276,580|1100|
+|Zoom Audio V1|1.0000|0.3167|0.3573|0.3167|0.3749|276,580|1100|
+|Phone Audio V2|0.5486|0.5333|0.5539|0.5333|0.5360|276,589|1100|
+|Zoom Audio V2|0.6153|0.3667|0.3579|0.3667|0.3532|276,589|1100|
+|Phone Audio V3a|0.7111|0.9833|0.9874|0.9833|0.9944|476,356|278|
+|Zoom Audio V3a|0.6778|0.9556|0.9624|0.9556|0.9663|476,356|642|
+|Phone Audio V3b|0.8185|0.9722|0.9742|0.9722|0.9830|476,356|583|
+|Zoom Audio V3b|0.5556|0.9167|0.9256|0.9167|0.9220|476,356|494|
+|Zoom Audio V3c|0.6667|0.9593|0.9632|0.9593|0.9794|476,356|534|
+|Zoom Audio V3c|0.5722|0.8889|0.8947|0.8889|0.9034|476,356|848|
 
 ## Requirements:
    $ Need Jupyter Notebook installed\
