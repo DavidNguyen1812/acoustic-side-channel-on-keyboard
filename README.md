@@ -102,6 +102,7 @@ Model | Training Accuracy | Validation Accuracy | Validation Precision | Validat
    2. We didn’t use the same setup as the original Author (with a microfiber cloth under the phone)
    3. Not enough computation power to enhance the model complexity for better accuracy
    4. The Fast-Fourier Extraction script still premature and can not cleanly extracting the exact keystroke noise, this cause a scenario where not all key strokes were extracted, additional non-keystoke noise was addded, or a keystroke mixed with unwanted noise.
+   5. Our V3 model did not account for adding noise to the validation data, which we should have for lesser F1 score bias.
 
 ## Contributors:
    1. David Nguyen - DavidNguyen1812
