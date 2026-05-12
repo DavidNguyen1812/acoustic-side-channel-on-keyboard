@@ -100,9 +100,8 @@ Model | Training Accuracy | Validation Accuracy | Validation Precision | Validat
 ## Known Issues:
    1. The string of all keys we would like to process isn’t complete, there is no space bar, no ., or underscores, which is why this particular code may not work successfully in a scenario where you’re on a zoom meeting trying to listen in on someone putting in login credentials (since most passwords nowadays require ,. Or underscores. Other factors may impact the results such as the speed of typing, the loudness/audio of the key stroke could impact the model Other noises (fan/Airconditioning).
    2. We didn’t use the same setup as the original Author (with a microfiber cloth under the phone)
-   3. The isolator script sometimes wouldn’t actually extract all possible key strokes (for example if our sentence  has 35 valid characters, it would capture only 32).
-   4. Not enough computation power to enhance the model complexity for better accuracy
-   5. The Fast-Fourier Extraction script still premature and can not cleanly extracting the exact keystroke noise
+   3. Not enough computation power to enhance the model complexity for better accuracy
+   4. The Fast-Fourier Extraction script still premature and can not cleanly extracting the exact keystroke noise, this cause a scenario where not all key strokes were extracted, additional non-keystoke noise was addded, or a keystroke mixed with unwanted noise.
 
 ## Contributors:
    1. David Nguyen - DavidNguyen1812
